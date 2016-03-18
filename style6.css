@@ -1,0 +1,50 @@
+.red
+{
+	background-color: red;
+	border: 10px solid red;
+	border-radius: 20%;
+}
+.green
+{
+	background-color: green;
+	border: 10px solid green;
+	border-radius: 20%;
+}
+.blue
+{
+	background-color: blue;
+	border: 10px solid blue;
+	border-radius: 20%;
+}
+label[for="red"]
+{
+	color: red;
+	text-decoration: underline;
+}
+label[for="green"]
+{
+	color: green;
+	text-decoration: underline;
+}
+label[for="blue"]
+{
+	color: blue;
+	text-decoration: underline;
+}
+input
+{
+	display: none;
+}
+
+input#red:checked ~ span.red
+{
+	display: none;
+}
+input#green:checked ~ span.green
+{
+	display: none;
+}
+input#blue:checked ~ span.blue
+{
+	display: none;
+}

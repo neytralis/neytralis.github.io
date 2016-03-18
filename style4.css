@@ -1,0 +1,14 @@
+
+a[href*="google"]
+{
+	color: grey;
+}
+a[href*="ya"]
+{
+	color: #f70;
+}
+a[target="_blank"]:after
+{
+content: "\21F1"; color: #f70;
+display: inline-block;
+}
