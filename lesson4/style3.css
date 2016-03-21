@@ -1,0 +1,43 @@
+body
+{
+	font-size: 12px;
+}
+div
+{
+	margin-top: 900px;
+}
+ul
+{
+	list-style-type: none;
+	width: 800px;
+	font-size: 0;
+}
+li
+{
+	display: inline-block;
+	font-size: 12px;
+}
+a
+{
+	text-decoration: none;
+	margin: 5px 10px;
+	padding: 8px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	color: indigo;
+}
+li:nth-child(5)
+{
+	vertical-align: bottom;
+	margin: 0 0 -8px 0;
+}
+.word a
+{
+	border: none;
+}
+ li:not(.word):hover a
+ {
+ 	background-color: indigo;
+ 	color: white;
+ 	border-color: indigo;
+ }
