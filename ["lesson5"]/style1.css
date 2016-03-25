@@ -1,0 +1,79 @@
+body
+{
+	font-size: 25px;
+	margin: 0;
+}
+ul
+{
+font-size: 0;
+width: 1000px;
+margin: 0 auto;
+list-style-type: none;
+
+}
+.main_menu li 
+{
+font-family: Economica;
+	display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+}
+.adv_menu li 
+{
+font-family: Arial;
+	display: inline-block;
+  font-size: 15px;
+}
+div.main_menu
+{
+	width: auto;
+	background-color: #1aa4ff;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+div.adv_menu
+{
+	width: auto;
+	margin: auto;
+	background-color: #eeeeee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	
+}
+.main_menu :link,
+.main_menu :visited
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 12px;
+	
+}
+.main_menu :link:hover,
+.main_menu :visited:hover
+{
+background-color: white;
+color: grey;
+}
+.adv_menu :link,
+.adv_menu :visited
+{
+	color: grey;
+	text-decoration: none;
+	padding: 5px 12px;
+	
+}
+.adv_menu :link:hover,
+.adv_menu :visited:hover
+{
+text-shadow: 1px 1px 2px black;
+}
+.adv_menu
+{
+	visibility: hidden;
+}
+.main_menu :link:hover ~ .adv_menu
+{
+visibility: visible;
+}
